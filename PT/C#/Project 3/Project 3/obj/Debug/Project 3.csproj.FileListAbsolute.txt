@@ -1,0 +1,6 @@
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\bin\Debug\Project 3.exe.config
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\bin\Debug\Project 3.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\bin\Debug\Project 3.pdb
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\obj\Debug\Project 3.csprojResolveAssemblyReference.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\obj\Debug\Project 3.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 3\Project 3\obj\Debug\Project 3.pdb

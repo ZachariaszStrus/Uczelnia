@@ -1,0 +1,6 @@
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\bin\Debug\Project 6 - server.exe.config
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\bin\Debug\Project 6 - server.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\bin\Debug\Project 6 - server.pdb
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\obj\Debug\Project 6 - server.csprojResolveAssemblyReference.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\obj\Debug\Project 6 - server.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6 - server\Project 6 - server\obj\Debug\Project 6 - server.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projekt4.MainWindowController">
+    <TableView fx:id="productTable" prefHeight="500" prefWidth="480" layoutX="10" layoutY="10" >
+        <columns>
+            <TableColumn text="name" prefWidth="330" >
+                <cellValueFactory>
+                    <PropertyValueFactory property="name" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="price" prefWidth="75" >
+                <cellValueFactory>
+                    <PropertyValueFactory property="value" />
+                </cellValueFactory>
+            </TableColumn>
+            <TableColumn text="currency" prefWidth="75" >
+                <cellValueFactory>
+                    <PropertyValueFactory property="currency" />
+                </cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+    
+    <TextField text="Name" fx:id="productNameField" prefWidth="300" layoutX="10" layoutY="520" />
+    <TextField text="Price" fx:id="productPriceField" prefWidth="50" layoutX="320" layoutY="520" />
+    <TextField text="Currency" fx:id="productCurrencyField" prefWidth="50" layoutX="380" layoutY="520" />
+    
+    <Button onAction="#addProductAction" text="Add" layoutX="450" layoutY="520" />
+    <Button onAction="#loadProductsAction" text="Load" layoutX="10" layoutY="560" />
+    <Button onAction="#saveProductsAction" text="Save" layoutX="70" layoutY="560" />
+    <Button onAction="#removeProductAction" text="Remove" layoutX="130" layoutY="560" />
+</AnchorPane>

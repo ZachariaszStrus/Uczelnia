@@ -1,0 +1,57 @@
+﻿<Window x:Class="Project_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="357" Width="619">
+    <Grid Margin="0,0,2,-1">
+        <GroupBox x:Name="groupBox" Header="Binominal coefficient" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="170" Width="245">
+            <Grid HorizontalAlignment="Left" Margin="0,0,-2,-2" Width="235" Height="150" VerticalAlignment="Top">
+                <Label x:Name="label" Content="N" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                <Label x:Name="label1" Content="K" HorizontalAlignment="Left" Margin="0,26,0,0" VerticalAlignment="Top"/>
+                <TextBox x:Name="NTextBox" HorizontalAlignment="Left" Height="23" Margin="24,3,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Text="22"/>
+                <TextBox x:Name="KTextBox" HorizontalAlignment="Left" Height="23" Margin="24,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Text="16"/>
+                <TextBox x:Name="DelegatesTextBox" HorizontalAlignment="Left" Height="20" Margin="109,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" FontSize="10"/>
+                <TextBox x:Name="AsyncTextBox" HorizontalAlignment="Left" Height="20" Margin="109,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" FontSize="10"/>
+            </Grid>
+
+        </GroupBox>
+        <Button x:Name="TasksButton" Content="Tasks" HorizontalAlignment="Left" Margin="20,95,0,0" VerticalAlignment="Top" Width="100" Click="TasksButton_Click"/>
+        <Button x:Name="DelegatesButton" Content="Delegates" HorizontalAlignment="Left" Margin="20,120,0,0" VerticalAlignment="Top" Width="100" Click="DelegatesButton_Click"/>
+        <Button x:Name="AsyncButton" Content="Async method" HorizontalAlignment="Left" Margin="20,145,0,0" VerticalAlignment="Top" Width="100" Click="AsyncButton_Click"/>
+        <TextBox x:Name="TasksTextBox" HorizontalAlignment="Left" Height="20" Margin="125,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" FontSize="10"/>
+        <GroupBox x:Name="groupBox1" Header="Fibonacci" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Height="124" Width="245">
+            <Grid HorizontalAlignment="Left" Height="105" Margin="0,0,-2,-3" VerticalAlignment="Top" Width="235">
+                <TextBox x:Name="FibonacciTextBox" HorizontalAlignment="Left" Height="20" Margin="86,49,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" RenderTransformOrigin="0.367,-0.55" FontSize="10"/>
+                <Button x:Name="FibonacciButton" Content="Get" HorizontalAlignment="Left" Margin="4,49,0,0" VerticalAlignment="Top" Width="78" Click="FibonacciButton_Click"/>
+                <Label x:Name="label1_Copy" Content="i" HorizontalAlignment="Left" Margin="14,9,0,0" VerticalAlignment="Top" Height="25"/>
+                <TextBox x:Name="ITextbox" HorizontalAlignment="Left" Height="20" Margin="32,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Text="1"/>
+                <ProgressBar x:Name="FibonacciProgressBar" HorizontalAlignment="Left" Height="16" Margin="4,79,0,0" VerticalAlignment="Top" Width="225"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox x:Name="groupBox_Copy" Header="Compress" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Height="60" Width="319">
+            <Grid Margin="0,0,-2,-2" Height="40" VerticalAlignment="Top">
+                <Button x:Name="CompressButton" Content="Compress" Margin="10,10,0,0" VerticalAlignment="Top" Click="CompressButton_Click" HorizontalAlignment="Left" Width="105"/>
+                <Button x:Name="DecompressButton" Content="Decompress" Margin="120,10,0,0" VerticalAlignment="Top" Click="DecompressButton_Click" HorizontalAlignment="Left" Width="105"/>
+            </Grid>
+
+        </GroupBox>
+        <GroupBox x:Name="groupBox_Copy1" Header="DNS" HorizontalAlignment="Left" Margin="260,70,0,0" VerticalAlignment="Top" Height="174" Width="339">
+            <Grid Margin="0,0,-2,-3" Height="155" VerticalAlignment="Top">
+                <Button x:Name="ResolveButton" Content="Resolve" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="105" Click="ResolveButton_Click"/>
+                <TextBox x:Name="DNSTextBox" HorizontalAlignment="Left" Height="110" Margin="10,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="309"/>
+            </Grid>
+
+        </GroupBox>
+        <GroupBox x:Name="groupBox_Copy2" Header="Responsiveness checker" HorizontalAlignment="Left" Margin="260,249,0,0" VerticalAlignment="Top" Height="60" Width="245">
+            <Grid HorizontalAlignment="Left" Margin="0,0,-2,0" Width="235" Height="40" VerticalAlignment="Top">
+                <Button x:Name="RandButton" Content="Rand" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="44" Click="RandButton_Click"/>
+                <TextBox x:Name="RandTextBox" HorizontalAlignment="Left" Height="20" Margin="59,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" RenderTransformOrigin="0.367,-0.55" IsEnabled="False" FontSize="10"/>
+            </Grid>
+
+        </GroupBox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.geometry.Insets?>
+
+<HBox xmlns:fx="http://javafx.com/fxml/1" id="AnchorPane" 
+           fx:controller="projekt6.MainWindowController" >
+    <VBox spacing="10">
+        <HBox.margin>
+            <Insets>
+                <left>20</left>
+                <right>20</right>
+                <top>20</top>
+                <bottom>20</bottom>
+            </Insets>
+        </HBox.margin>
+        <TableView fx:id="imageProcessingJobTable" styleClass="studentCatalogTable" prefHeight="400.0" >
+            <columns>
+                <TableColumn fx:id="imageNameColumn" text="Image Name" prefWidth="200"/>
+                <TableColumn fx:id="progressColumn" text="Progress" prefWidth="130"/>
+                <TableColumn fx:id="statusColumn" text="Status" prefWidth="130"/>
+            </columns>
+        </TableView>
+        <HBox prefHeight="40"> 
+            <Label text="Destination directory : "/>  
+            <Label fx:id="destinationDirectoryLabel" text=""/>
+        </HBox>
+        <Separator />   
+        <HBox prefHeight="20"> 
+            <Label text="Sequential time : "/>  
+            <Label fx:id="sequentialTimeLabel" text=""/>   
+        </HBox>
+        <HBox prefHeight="20"> 
+            <Label text="Parallel time : "/>  
+            <Label fx:id="parallelTimeLabel" text=""/>   
+        </HBox>
+        <HBox prefHeight="20"> 
+            <Label text="Differential : "/>  
+            <Label fx:id="differentialLabel" text=""/>   
+        </HBox>
+    </VBox>
+    <Separator orientation="VERTICAL" />   
+    <VBox prefHeight="40" spacing="10" >
+        <HBox.margin>
+            <Insets>
+                <left>20</left>
+                <right>20</right>
+                <top>20</top>
+                <bottom>20</bottom>
+            </Insets>
+        </HBox.margin>
+        <Button text="Choose files" onAction="#chooseFiles" prefWidth="200"/>
+        <Button text="Choose destination directory" onAction="#chooseDestinationDirectory" prefWidth="200"/>
+        <Separator />
+        
+        <Label text="Sequential conversion" />
+        <Button text="Start" onAction="#startConversionSequential" prefWidth="200"/>
+        <Separator />
+        
+        <Label text="Parallel conversion" />
+        <HBox prefHeight="20"> 
+            <Label text="Number of threads : "/>
+            <TextField fx:id="numberOfThreadsTextField" text="" prefWidth="40"/>     
+        </HBox>
+        <Button text="Custom start" onAction="#startConversionParallel" prefWidth="200"/>
+        <Button text="Default start" onAction="#startConversionParallelDefault" prefWidth="200"/>
+        <Separator />
+        
+        <Button text="Clear" onAction="#clearTable" prefWidth="200"/>
+    </VBox>
+</HBox>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.cell.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" id="BorderPane" 
+            styleClass="mainFxmlClass" fx:controller="projekt5.MainWindowController">
+    <stylesheets>
+        <URL value="@mainwindow.css"/>
+    </stylesheets>
+    <top>
+        <BorderPane>
+            <top>
+                <Label text="Student Catalog" styleClass="title"/> 
+            </top>
+            <bottom>
+                <TableView fx:id="studentCatalogTable" styleClass="studentCatalogTable" 
+                           prefHeight="300" onMouseClicked="#handleStudentCatalogMClicked" >
+                    <columns>
+                        <TableColumn text="First Name" prefWidth="200">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="firstname"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Last Name" prefWidth="200" >
+                            <cellValueFactory>
+                                <PropertyValueFactory property="lastname"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn fx:id="studentDepartmentColumn" text="Department" prefWidth="100" >
+                            <cellValueFactory>
+                                <PropertyValueFactory property="departmentid"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+            </bottom>
+        </BorderPane>
+    </top>
+    <center>
+        <HBox styleClass="controlBox">
+            <TextField fx:id="firstNameTextField" text="First Name" onMouseClicked="#handleFirstNameFieldClicked" />
+            <TextField fx:id="lastNameTextField" text="Last Name" onMouseClicked="#handleLastNameFieldClicked"/>
+            <ChoiceBox fx:id="departmetnChoiceBox"/>
+            <Button text="Add" onAction="#handleAddItem" />
+            <Button text="Report" onAction="#handleReport"/>
+        </HBox>
+    </center>
+    <bottom>
+        <BorderPane>
+            <top>
+                <Label text="Department Catalog" styleClass="title"/> 
+            </top>
+            <bottom>
+                <TableView fx:id="departmentCatalogTable" prefHeight="150">
+                    <columns>
+                        <TableColumn text="Shortcut" prefWidth="100" >
+                            <cellValueFactory>
+                                <PropertyValueFactory property="shortcut"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Name" prefWidth="400" >
+                            <cellValueFactory>
+                                <PropertyValueFactory property="fullname"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+            </bottom>
+        </BorderPane>
+    </bottom>
+</BorderPane>

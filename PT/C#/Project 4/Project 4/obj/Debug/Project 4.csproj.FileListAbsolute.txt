@@ -1,0 +1,14 @@
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\bin\Debug\Project 4.exe.config
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\bin\Debug\Project 4.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\bin\Debug\Project 4.pdb
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4.csprojResolveAssemblyReference.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\MainWindow.g.cs
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\App.g.cs
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4_MarkupCompile.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4_MarkupCompile.lref
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\MainWindow.baml
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4.g.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project_4.Properties.Resources.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4.csproj.GenerateResource.Cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4\Project 4\obj\Debug\Project 4.pdb

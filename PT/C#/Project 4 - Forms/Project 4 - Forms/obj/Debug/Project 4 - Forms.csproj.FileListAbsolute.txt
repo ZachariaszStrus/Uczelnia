@@ -1,0 +1,9 @@
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\bin\Debug\Project 4 - Forms.exe.config
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project 4 - Forms.csprojResolveAssemblyReference.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project_4___Forms.Form1.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project_4___Forms.Properties.Resources.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project 4 - Forms.csproj.GenerateResource.Cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\bin\Debug\Project 4 - Forms.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\bin\Debug\Project 4 - Forms.pdb
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project 4 - Forms.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 4 - Forms\Project 4 - Forms\obj\Debug\Project 4 - Forms.pdb

@@ -1,0 +1,10 @@
+DROP TABLE Zaliczki;
+DROP TABLE WydaniaPlyt;
+DROP TABLE WplywyZPlyt;
+DROP TABLE Plyty;
+DROP TABLE WplywyZTantiem;
+DROP TABLE NaleznosciZaTantiemy;
+DROP TABLE KontraktyRozglosniRadiowych;
+DROP TABLE RozglosnieRadiowe;
+DROP TABLE KontraktyArtystow;
+DROP TABLE Artysci;

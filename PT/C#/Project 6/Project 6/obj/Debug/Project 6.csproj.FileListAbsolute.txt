@@ -1,0 +1,9 @@
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\bin\Debug\Project 6.exe.config
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\bin\Debug\Project 6.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\bin\Debug\Project 6.pdb
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project 6.csprojResolveAssemblyReference.cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project_6.Form1.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project_6.Properties.Resources.resources
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project 6.csproj.GenerateResource.Cache
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project 6.exe
+F:\zaki\My files\My files\projekty\semestr 4\PT\C#\Project 6\Project 6\obj\Debug\Project 6.pdb

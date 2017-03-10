@@ -1,0 +1,21 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-padding: 10;
+    -fx-background-color: #333333;
+}
+
+.studentCatalogTable {
+    
+}
+
+.title {
+}
+
+.controlBox {
+    -fx-spacing: 10;
+    -fx-padding: 10 0 10 0;
+}
+
